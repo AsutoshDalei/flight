@@ -10,7 +10,7 @@ u=0 #upward center shift by 5 pixel factor. It is 0 for now.
 
 U='UP' #These are motion keys of the drone
 D='DOWN'
-L='left'
+L='LEFT'
 R='right'
 
 while(True):
