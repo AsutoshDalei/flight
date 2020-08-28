@@ -56,7 +56,7 @@ while(True):
           (h, w, d) = pic.shape
           px,py=w//2,h//2
           if(cx<px-10):
-              cv2.putText(pic,'Move Left',(px+220,py+5),cv2.FONT_HERSHEY_SIMPLEX,0.7,(0,255,0),2)
+              cv2.putText(pic,'Move LEFT',(px+220,py+5),cv2.FONT_HERSHEY_SIMPLEX,0.7,(0,255,0),2)
               #pyautogui.press(L) #Command drone to MOVE RIGHT
           elif(cx>px+10):
               cv2.putText(pic,'Move Right',(px-310,py+5),cv2.FONT_HERSHEY_SIMPLEX,0.7,(0,255,0),2)
