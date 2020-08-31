@@ -9,7 +9,7 @@ u=0 #upward center shift by 5 pixel factor. It is 0 for now.
 #cap = cv2.VideoCapture(r'C:\Users\ndale\Downloads\mov.mp4')
 
 U='UP' #These are motion keys of the drone
-D='DOWN'
+D='DOWN' #Do not touch them
 L='LEFT'
 R='right'
 
